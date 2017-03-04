@@ -4,9 +4,9 @@
       "Kang-min Liu <gugod@gugod.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.5.0, CPAN::Meta::Converter version 2.150001",
+   "generated_by" : "Minilla/v3.0.10, CPAN::Meta::Converter version 2.150001",
    "license" : [
-      "mit"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -28,7 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build::Tiny" : "0.035"
          }
       },
       "develop" : {
@@ -45,7 +45,7 @@
             "List::Priority" : "0",
             "Moo" : "0",
             "Tree::DAG_Node" : "0",
-            "perl" : "5.8"
+            "perl" : "v5.8.0"
          }
       },
       "test" : {
@@ -57,14 +57,17 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/gugod/Tree-VP/issues"
+         "web" : "https://github.com/lbe/Tree-VP/issues"
       },
-      "homepage" : "https://github.com/gugod/Tree-VP",
+      "homepage" : "https://github.com/lbe/Tree-VP",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/gugod/Tree-VP.git",
-         "web" : "https://github.com/gugod/Tree-VP"
+         "url" : "git://github.com/lbe/Tree-VP.git",
+         "web" : "https://github.com/lbe/Tree-VP"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06",
+   "x_contributors" : [
+      "William H. Gilmore <whgi@gms-online.com>"
+   ]
 }
